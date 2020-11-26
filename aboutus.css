@@ -1,0 +1,106 @@
+* {
+    color: white;
+    background-color: black;
+    font-family: 'Forum', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr{
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+#title h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 4rem;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 2px;
+    margin: 22px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(255, 239, 146);
+}
+
+#navbar ul li a.active {
+    color: gold;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+    padding-top: 3rem;
+}
+
+.underline{
+    display: flex;
+    justify-content: center;
+}
+
+.s1{
+    display: flex;
+    padding: 1.5rem 8rem;
+}
+
+.grid {
+    display: flex;
+    padding: 0rem 4rem;
+    justify-content: center;
+}
+
+.s1 img{
+    width: 450px;
+    height: 496px;
+}
+
+.s4{
+    padding: 1rem 5rem;
+    display: grid;
+    grid-template-areas:
+    'contact openhrs' ;
+}
+
+.botton{
+    display: flex;
+    justify-content: center;
+}
+.bottom h3{
+    color: rgb(255, 234, 115);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.bottom p{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
